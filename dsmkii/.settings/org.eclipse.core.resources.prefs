@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+encoding//src/dsmkii/Config.java=UTF-8
+encoding//src/dsmkii/MyModbusDevice.java=UTF-8
+encoding//src/dsmkii/MyModbusDeviceImpl.java=UTF-8
+encoding//test/dsmkii/MyConfig.java=UTF-8
+encoding//test/dsmkii/MyModbusDeviceTest.java=UTF-8
+encoding/<project>=UTF-8
+encoding/bnd.bnd=UTF-8
+encoding/readme.adoc=UTF-8
