@@ -1,4 +1,4 @@
-package deepsea8610mkii;
+package io.openems.edge.controller.deepsea8610mkii;
 
 import org.osgi.service.metatype.annotations.AttributeDefinition;
 import org.osgi.service.metatype.annotations.ObjectClassDefinition;

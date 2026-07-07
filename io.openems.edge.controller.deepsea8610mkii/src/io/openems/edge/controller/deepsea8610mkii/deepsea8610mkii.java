@@ -1,4 +1,4 @@
-package deepsea8610mkii;
+package io.openems.edge.controller.deepsea8610mkii;
 
 import io.openems.common.channel.AccessMode;
 import io.openems.common.channel.Unit;
