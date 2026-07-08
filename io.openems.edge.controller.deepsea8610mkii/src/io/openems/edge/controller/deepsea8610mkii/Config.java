@@ -5,7 +5,7 @@ import org.osgi.service.metatype.annotations.ObjectClassDefinition;
 
 @ObjectClassDefinition(//
 		name = "DeepSea 8610mkII Controller v2", //
-		description = "Интеграция для контроллера генератора")
+		description = "Интеграция для контроллера генератора в.2")
 @interface Config {
 
 	@AttributeDefinition(name = "Component-ID", description = "Unique ID of this Component")

@@ -85,7 +85,7 @@ public class deepsea8610Impl extends AbstractOpenemsModbusComponent implements d
             return;
         }
 
-        // Слушатель для отправки системных ключей управления (Страница 16: адреса 4104 и 4105)
+        // Слушатель для отправки системных ключей управления  (Страница 16: адреса 4104 и 4105)
         WriteChannel<Integer> controlModeChannel = this.channel(deepsea8610mkii.ChannelId.SET_CONTROL_MODE);
         controlModeChannel.onSetNextWrite(value -> {
             if (value != null) {

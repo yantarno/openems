@@ -68,7 +68,7 @@ public interface deepsea8610mkii extends OpenemsComponent, ModbusComponent {
         DIGITAL_INPUTS_RAW(Doc.of(OpenemsType.INTEGER).text("Входы Digital A-L (Bits) ")),
         DIGITAL_OUTPUTS_RAW(Doc.of(OpenemsType.INTEGER).text("Выходы Digital A-L (Bits) ")),
 
-        // --- УДАЛЕННОЕ УПРАВЛЕНИЕ (Remote Control 1-9) ---
+        // --- УДАЛЕННОЕ УПРАВЛЕНИЕ  (Remote Control 1-9) ---
         REMOTE_CONTROL_1(Doc.of(OpenemsType.INTEGER).accessMode(AccessMode.READ_WRITE)),
         REMOTE_CONTROL_2(Doc.of(OpenemsType.INTEGER).accessMode(AccessMode.READ_WRITE)),
         REMOTE_CONTROL_3(Doc.of(OpenemsType.INTEGER).accessMode(AccessMode.READ_WRITE)),
